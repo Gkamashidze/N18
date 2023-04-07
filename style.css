@@ -1,0 +1,389 @@
+@font-face {
+    font-family: poppins-regular;
+    src: url(./fonts/poppins-regular.ttf);
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(./fonts/poppins-bold.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/roboto-regular.ttf);
+}
+
+.header-section {
+    padding-left: 12px;
+    padding-right: 60px;
+    padding-top: 26.78px;
+}
+
+.header-title>h1 {
+    font-family: poppins-bold;
+    font-weight: 900;
+    font-size: 27.451px;
+    line-height: 27px;
+    color: #000000;
+
+    margin-bottom: 0;
+    margin-left: 23.58px;
+}
+
+.profile-box .img1 {
+    margin-right: 14px;
+}
+
+.profile-box span {
+    margin-right: 12px;
+}
+
+.main-section {
+    position: relative;
+}
+
+.main-section-content-box1 {
+    margin-top: 36px;
+    background-image: url(./img/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-left: 0;
+}
+
+.box1-img2 {
+    position: absolute;
+}
+
+.carousel {
+position: relative;
+   
+}
+
+.carousel-indicators {
+    /* background-color: red; */
+    margin-bottom: 90px;
+    background-image: url(./img/Dots.png);
+    background-repeat: no-repeat;
+}
+
+.img1 {
+    border-radius: 50px;
+}
+
+.main-section-content-box2 {
+    padding-right: 125px;
+    padding-left: 102px;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+
+    padding-top: 83px;
+    padding-bottom: 70px;
+}
+
+.main-section-content-box2>h3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: poppins-regular;
+
+    margin-bottom: 0;
+}
+
+.main-section-content-box2>h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: poppins-bold;
+
+    margin-bottom: 12px;
+}
+
+.main-section-content-box2>span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: poppins-regular;
+    color: #9B9B9B;
+
+    /* margin-top: 12px; */
+}
+
+.msb2details {
+    padding-top: 11px;
+    padding-bottom: 15px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+
+    width: 100%;
+    height: 152px;
+
+    margin-top: 54px;
+
+    border: 1px solid #9B9B9B;
+    border-radius: 4px;
+
+    /* background-color: #9B9B9B; */
+}
+
+.msb2details1 {
+    padding-bottom: 15px;
+
+}
+
+.msb2details2 {
+    padding-top: 11px;
+    padding-bottom: 15px;
+}
+
+.msb2details3 {
+    padding-top: 11px;
+    padding-bottom: 15px;
+}
+
+.detail-span>span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9B9B9B;
+    font-family: roboto;
+
+    padding-left: 20px;
+}
+
+.detail-span2>span {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1B1B;
+
+    padding-right: 20px;
+}
+
+hr {
+    margin: 0;
+    border-bottom: 1px solid #EAEAEA;
+
+}
+
+.number {
+    margin-top: 42px;
+    gap: 20px;
+}
+
+.number-number {
+    width: 162px;
+    height: 60px;
+    border: 2px solid #9B9B9B;
+    border-radius: 100px;
+}
+
+.number-btn {
+    width: 245px;
+    height: 60px;
+    border: 2px solid #FF0060;
+    border-radius: 100px;
+
+    background-color: transparent;
+}
+
+.vl {
+    width: 1px;
+    height: 60px;
+    background: #9B9B9B;
+
+    opacity: 0.3;
+}
+
+.plus {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: roboto;
+    color: #9B9B9B;
+
+    margin-right: 15px;
+}
+
+.minus {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: roboto;
+    color: #9B9B9B;
+
+    margin-left: 20px;
+}
+
+.nmbr {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: roboto;
+    color: #1B1B1B;
+
+    margin-left: 26px;
+    margin-right: 23px;
+}
+
+.number-btn>span {
+    font-family: roboto;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #FF0060;
+}
+
+.vl2 {
+    width: 1px;
+    height: 60px;
+    background: #FF0060;
+
+    margin-right: 15px;
+    margin-left: 20px;
+
+    opacity: 0.2;
+}
+
+.view {
+    margin-top: 82px;
+    margin-bottom: 70px;
+}
+
+.view>span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: roboto;
+    color: #9B9B9B;
+}
+
+.pathicon {
+    margin-right: 10px;
+    margin-left: 16px;
+}
+
+.social {
+    gap: 20px;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 38px;
+    padding-right: 60px;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.ftr-copyright {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.ftr-box {
+    width: 900px;
+}
+
+.ftr-box2 {
+
+    gap: 45px;
+}
+
+.ftr-contact {
+    font-family: poppins-bold;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.ftr-span {
+    font-family: poppins-bold;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+@media (max-width: 425px) {
+
+    .header-section {
+        padding-top: 12px;
+        padding-right: 5px;
+        padding-left: 0;
+
+    }
+
+    .header-title>h1 {
+        font-size: 17.45px;
+        line-height: 27px;
+
+        margin-left: 7.45px;
+    }
+
+    .main-section-content-box2 {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 57px;
+        padding-bottom: 0;
+    }
+
+    .detail-span {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .detail-span2 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .number-btn>span {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .view {
+        margin-top: 46px;
+        margin-bottom: 109px;
+    }
+
+    .msb2details {
+        width: 100%;
+        /* height: 152px; */
+        margin-top: 17px;
+    }
+
+    .number {
+        margin-top: 17px;
+    }
+
+    .social {
+        margin-top: 12px;
+        margin-bottom: 22px;
+    }
+
+    .ftr-copyright {
+        color: #D1D1D1;
+    }
+
+    .ftr-box2 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .ftr-box {
+        padding-bottom: 9px;
+    }
+
+}
