@@ -48,30 +48,52 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    position: relative;
+
     padding-left: 0;
 }
 
+/* .carousel-item>img {
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
 .box1-img2 {
     position: absolute;
+    z-index: 1;
 }
 
-.carousel {
-position: relative;
-   
+.carousel-text {
+    list-style-type: none;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+    margin-left: 27px;
 }
 
 .carousel-indicators {
     /* background-color: red; */
-    margin-bottom: 90px;
-    background-image: url(./img/Dots.png);
+    margin-bottom: 0px;
+    /* background-image: url(./img/Dots.png); */
     background-repeat: no-repeat;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-left: 10px;
 }
 
 .img1 {
     border-radius: 50px;
 }
 
-.main-section-content-box2 {
+.main-section-content-box2 
+{
     padding-right: 125px;
     padding-left: 102px;
 
