@@ -69,10 +69,6 @@
     margin-left: 27px;
 }
 
-/* .carousel-item {
-position: relative;
-} */
-
 .carousel-indicators {
     margin-bottom: 130px;
     background-repeat: no-repeat;
@@ -317,15 +313,11 @@ hr {
     line-height: 16px;
     color: #FFFFFF;
 
-    margin-right: 175px;
-}
-
-.ftr-box {
-    /* width: 100%; */
+    /* margin-right: 175px; */
 }
 
 .ftr-box2 {
-    gap: 45px;
+    gap: 85px;
 }
 
 .ftr-contact {
